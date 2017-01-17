@@ -1,0 +1,75 @@
+{
+    "id": "seeme_dual",
+    "version": 2,
+    "name": "SeeMeCNC Rostock Max v3 Dual",
+    "inherits": "fdmprinter",
+    "metadata": {
+        "visible": true,
+        "author": "SeeMeCNC",
+        "manufacturer": "SeeMeCNC",
+        "category": "Custom",
+        "weight": 4,
+        "file_formats": "text/x-gcode",
+        "has_materials": true,
+        "machine_extruder_trains":
+        {
+            "0": "seeme_dual_1st",
+            "1": "seeme_dual_2nd"
+        }
+    },
+
+    "overrides": {
+        "machine_name": { "default_value": "SeeMeCNC Rostock Max v3 Dual" },
+        "machine_heated_bed": {
+            "default_value": true
+        },
+        "material_diameter": {
+            "default_value": 1.75
+        },
+        "machine_width": {
+            "default_value": 290
+        },
+        "machine_height": {
+            "default_value": 395
+        },
+        "machine_depth": {
+            "default_value": 290
+        },
+        "machine_shape": {
+            "default_value": "elliptic"
+        },
+        "machine_center_is_zero": {
+            "default_value": true
+        },
+        "machine_nozzle_size": {
+            "default_value": 0.5
+        },
+        "gantry_height": {
+            "default_value": 55
+        },
+        "machine_use_extruder_offset_to_offset_coords": {
+            "default_value": true
+        },
+        "machine_gcode_flavor": {
+            "default_value": "Repetier"
+        },
+        "machine_start_gcode": {
+            "default_value": "G28 ;Home\nG1 Z15.0 F6000 ;Move the platform down 15mm\n;Prime the extruder\nG92 E0\nG1 F200 E3\nG92 E0"
+        },
+        "machine_end_gcode": {
+            "default_value": "g28\nT0\nM104 S0\nM140 S0\n;Retract the filament\nG92 E1\nG1 E-2 F300\nM84"
+        },
+        "machine_extruder_count": {
+            "default_value": 2
+        },
+        "print_sequence": {
+            "enabled": false
+        },
+        "prime_tower_position_x": {
+            "default_value": 120
+        },
+        "prime_tower_position_y": {
+            "default_value": 120
+        }
+    }
+}
