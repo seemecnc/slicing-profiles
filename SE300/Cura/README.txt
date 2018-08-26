@@ -1,3 +1,9 @@
-These profiles are made for Cura 3.3.1 and newer. Profiles are optimized to print with Atomic
-brand filament. If you printer has been modified or you are using different
-filament, you may have to tweak the values.
+Cura 3.4.1 preferred. 
+
+The curaproject will: 
+1. make new machine (printer
+2. put two parts on the build plate
+3. make a new slicing profile
+
+
+These profiles are made for Cura 3.4.1 and have been optimized using Atomic Filament and SeeMeCNC brand filaments. TPU profiles have been tuned using SainSmart brand color black.
