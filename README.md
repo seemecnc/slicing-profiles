@@ -11,6 +11,8 @@ Hello.  We hope you enjoy these profiles.  These free slicing profiles have been
 For SE300 Dual Extrusion:
 We now recommend Cura 3.4.1 and opening our SE300 default dual extrusion project file.  Opening a dual extrusion project file from SeeMeCNC will install a new dual machine, open a dual extrusion STL, and install the dual slicing profile for you.
 
+See the github.com/seemecnc location: ...\slicing-profiles\SE300\Cura\SE300 050 Nozzle Stock Default\SeeMeCNC_Dual_Batarang_mix-NerysThing2841027
+
 Follow the guide under the 'SUPPORT' tab on seemecnc.com
 
 All profiles are optimized for Atomic brand filament and SeeMeCNC brand filament.
