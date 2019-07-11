@@ -1,4 +1,8 @@
-Cura 3.4.1 preferred. 
+Cura 4.1
+SeeMeCNC generated slicing profiles
+
+(Cura 3.4.1 preferred until July 2019)
+
 
 The curaproject will: 
 1. make new machine (printer
