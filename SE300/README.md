@@ -7,7 +7,8 @@ Hello.  We hope you enjoy these profiles.  These free slicing profiles have been
 
 > 2015-2017 Eris profiles for Eris models only
 > 2015-2018 HE280 for printers with the HE280 hotend
-> 2018-20?? SE300 for all printers with the SE300 hotend
+> 2018-2029 SE300 for all printers with the SE300 hotend
+> 2019-???? XST SE300 and SE300 updating power plug 
 
 
 For SE300 Dual Extrusion:
