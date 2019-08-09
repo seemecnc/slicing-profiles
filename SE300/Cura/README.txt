@@ -1,13 +1,15 @@
-Cura 4.1
 SeeMeCNC generated slicing profiles
+Profile for Cura slicing software
 
-(Cura 3.4.1 preferred until July 2019)
+Cura 3.4.1 preferred November 2017 through August 2019
+Cura version between 3.4.1 and 4.2.1 are not recommended.
+Cura 4.2.1 preferred starting August 2019 through ????
 
-
-The curaproject will: 
-1. make new machine (printer
-2. put two parts on the build plate
+Opening a curaproject will: 
+1. make new machine
+2. open new parts in Cura
 3. make a new slicing profile
 
 
-These profiles are made for Cura 3.4.1 and have been optimized using Atomic Filament and SeeMeCNC brand filaments. TPU profiles have been tuned using SainSmart brand color black.
+These profiles have been optimized using Atomic Filament and SeeMeCNC brand filaments. 
+TPU profiles have been tuned using SainSmart brand color black.
