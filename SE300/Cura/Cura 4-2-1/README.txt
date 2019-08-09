@@ -2,6 +2,9 @@
 
 SPECIFICALLY FOR Cura 4.2.1 
 
+We recommend removing all old software BEFORE install this new version.
+seemecnc.com > SUPPORT tab > Docs & Guides > 
+
 Lataer Cura version may work with these SeeMeCNC tested profiles
 
 
