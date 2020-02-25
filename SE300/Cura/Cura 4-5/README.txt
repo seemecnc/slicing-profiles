@@ -1,12 +1,13 @@
-2020-FEB-16 by SeeMeCNC
+2020-FEB-25 by SeeMeCNC
 
 SPECIFICALLY FOR Cura 4.5 
 
 We recommend removing all old software BEFORE install this new version.
 seemecnc.com > SUPPORT tab > Docs & Guides > 
 
-Lataer Cura version may work with these SeeMeCNC tested profiles
-
+Lataer Cura version *might* work with these SeeMeCNC tested profiles. However,
+  these profiles were developed for the version listed above. Be sure to 
+  use the profiles and quickstart machine files for the correct Cura version.
 
 
 A SeeMeCNC QUICK START file: 
@@ -19,10 +20,9 @@ Opening a file with extension  .3MF  will:
 
 
 
-As of February 2020, these are the current SeeMeCNC recommended Delta Cura 4.5 
- beginning and ending G-code entered into the 'Machine Settings' in Cura 4.5. These
- settings work for single and dual extrusion. 
+February 2020 updated: 
 
+Notes for starting machine and extruder gcode. 
  
 ;PRINTER Start G-code
 M203 Z14000
