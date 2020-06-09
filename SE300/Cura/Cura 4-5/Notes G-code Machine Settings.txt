@@ -1,3 +1,21 @@
+We now recommend opening the 3MF project file for 
+reference to feeds and retractions related to dual extrusion. 
+In particular, "Quick Start PLA 050noz Artemis Profile.3mf"
+
+
+
+
+
+___________________________________________________
+
+The following information is for reference. You will
+find better values by opening a "project file" 3MF
+
+
+
+____________________________________________________
+
+
 ;PRINTER Start G-code
 M203 Z14000
 G28 ;Home

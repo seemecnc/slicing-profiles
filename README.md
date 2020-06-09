@@ -1,11 +1,16 @@
 # slicing-profiles
 
+
+Our recommended setup methode is to follow the quick start guide. Just type "quick start" in the search bar of seemecnc.com
+
+___________________________________________________________
 Hello.  We hope you enjoy these profiles.  These free slicing profiles have been refined by the SeeMeCNC.  You will find default slicing profiles for various slicing softwares.  We have invested 100's of hours making sure you get off to a good start. 
 
 
 > 2015-2017 Eris profiles for Eris models only
 > 2015-2018 HE280 for printers with the HE280 hotend
 > 2018-20?? SE300 for all printers with the SE300 hotend
+> 2019-20?? XST SE300 for BOSSdelta's bigger heater block
 
 
 For SE300 Dual Extrusion:

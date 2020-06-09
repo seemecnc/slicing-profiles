@@ -1,3 +1,19 @@
+
+_________________________________________________
+Our recommended setup methode is to follow the quick start guide. Just type "quick start" in the search bar of seemecnc.com and look for the "quick start" webpage for information.
+
+_________________________________________________
+
+
+
+
+
+
+
+
+
+
+
 SeeMeCNC generated slicing profiles
 Profile for Cura slicing software
 

@@ -1,5 +1,34 @@
 # slicing-profiles
 
+
+
+Our recommended setup methode is to follow the quick start guide. Just type "quick start" in the search bar of seemecnc.com and look for the "quick start" webpage for information.
+
+___________________________________________________________
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 =================== Cura 3.4.1 Specifically  ==================
 
 Hello.  We hope you enjoy these profiles.  These free slicing profiles have been refined by the SeeMeCNC.  You will find default slicing profiles for various slicing softwares.  We have invested 100's of hours making sure you get off to a good start. 
