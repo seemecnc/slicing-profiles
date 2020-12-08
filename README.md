@@ -9,26 +9,100 @@ Hello.  We hope you enjoy these profiles.  These free slicing profiles have been
 
 > 2015-2017 Eris profiles for Eris models only
 > 2015-2018 HE280 for printers with the HE280 hotend
-> 2018-20?? SE300 for all printers with the SE300 hotend
-> 2019-20?? XST SE300 for BOSSdelta's bigger heater block
+> 2018-2021 SE300 for all printers with the SE300 hotend
+> 2019-2020 XST SE300 for BOSSdelta's bigger heater block
+> 2020-????
 
 
-For SE300 Dual Extrusion:
-We now recommend Cura 3.4.1 and opening our SE300 default dual extrusion project file.  Opening a dual extrusion project file from SeeMeCNC will install a new dual machine, open a dual extrusion STL, and install the dual slicing profile for you.
+PLEASE FOLLOW THE ONLINE SEEMECNC CURA SETUP GUIDE FOUND UNDER
 
-See the github.com/seemecnc location: ...\slicing-profiles\SE300\Cura\SE300 050 Nozzle Stock Default\SeeMeCNC_Dual_Batarang_mix-NerysThing2841027
-
-Follow the guide under the 'SUPPORT' tab on seemecnc.com
-
-All profiles are optimized for Atomic brand filament and SeeMeCNC brand filament.
+menu item  USPPORT > Quick Start
 
 
 
---------------------------
-    SE300 Profile Notes
---------------------------
 
-SE300 TPU 070nozzle Sain Smart 85A-95A durometer
 
-Use a machine profile with extruder for 0.7mm dia nozzle. This profile is specifically made for spiral vase printing quickly. No bottom, no top layers, only outside perimeter. The 0.7mm nozzle prints nicer due to lower back pressure and provides a thicker sturdy wall. We use this printing our boots for the hotend whip.
 
+
+
+
+
+
+
+The folloowing notes are NOT intended for setup. Please see our guide.
+_______________________________________________________________
+SeeMeCNC DECEMBER 2020
+Cura 4.6.2 Notes and printer setup
+
+The slicing profile MUST HAVE retraction of 6.5mm set to work with these notes. 
+
+PLEASE OPEN THE SEEMECNC CURA 4.6.2 PROJECT 3MF FILE.  :) 
+
+
+
+;PRINTER SETUP BEGINNING GCODE <<<< DO NOT COPY THIS LINE
+
+;=== SeeMeCNC PRINTER SETTINGS =========
+;=== OPTIMIZED FOR CURA 4.6.2  =========
+M203 Z10000  ;===PRINTER BEGIN G-CODE===
+G28
+G1 X0 Y-130 Z0.3 F8000
+G1 F200 E3
+G92 E0       ;==========================
+
+
+
+
+
+;PRINTER SETUP ENDING GCODE <<<< DO NOT COPY THIS LINE
+
+G91             ;============================
+G1 Z0.3 F10000
+G90
+G92 E0
+G1 E-3.5 F300
+G92 E0
+G1 E-150 F5000
+G92 E0
+T1 P0
+T0 P0
+M104 S0
+M140 S0
+M203 Z10000
+G28             ;===== PRINTER END GCODE =====
+
+
+
+
+
+;EXTRUDER 1  BEGINNING GCODE <<<< DO NOT COPY THIS LINE
+
+G91           ;=======EXTRUDER 1 BEGIN GCODE=======
+G1 Z1 F10000
+G90
+G1 X0 Y-130 F10000
+T0 P0         ;=== SELECT TOOL DO NOT RUN MACROS ==
+G92 E0
+G1 E145 F4000
+G92 E0
+G1 E15 F500
+G92 E0        ;====================================
+
+
+
+
+
+;EXTRUDER 1 ENDING GCODE   <<<< DO NOT COPY THIS LINE
+
+G91             ;====================================
+G1 Z1 F10000
+G90
+G1 X0 Y-130 F10000
+G91
+G92 E0
+G1 E-3.5 F300
+G92 E0
+G1 E-153.5 F5000
+G92 E0
+T-1 P0          ;DESELECT ALL TOOLS DO NOT RUN MACROS
+;               ;=======END EXTRUDER 1 GCODE=========
