@@ -20,6 +20,7 @@ Profile for Cura slicing software
 Cura 3.4.1 preferred November 2017 through August 2019
 Cura version between 3.4.1 and 4.2.1 are not recommended.
 Cura 4.2.1 preferred starting August 2019 through ????
+Cura 5.4.0 support starting July 2023
 
 Opening a curaproject will: 
 1. make new machine
