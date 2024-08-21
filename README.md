@@ -11,12 +11,13 @@ Hello.  We hope you enjoy these profiles.  These free slicing profiles have been
 > 2015-2018 HE280 for printers with the HE280 hotend
 > 2018-2021 SE300 for all printers with the SE300 hotend
 > 2019-2020 XST SE300 for BOSSdelta's bigger heater block
-> 2020-????
+> 2020-2024 End of year 2024 support for Cura profiles
+> 2024-???  Orca slicing support begins late 4th quarter
 
 
 PLEASE FOLLOW THE ONLINE SEEMECNC CURA SETUP GUIDE FOUND UNDER
 
-menu item  USPPORT > Quick Start
+menu item  SUPPORT > Quick Start
 
 
 
@@ -26,22 +27,20 @@ menu item  USPPORT > Quick Start
 
 
 
+The following notes are NOT intended for setup. Please see our guide.
+______________________________________________________________________
+SeeMeCNC 
+December 2024
+Orca support will begin. 
 
 
-
-The folloowing notes are NOT intended for setup. Please see our guide.
-_______________________________________________________________
-SeeMeCNC DECEMBER 2020
+DECEMBER 2020
 Cura 4.6.2 Notes and printer setup
-
 The slicing profile MUST HAVE retraction of 6.5mm set to work with these notes. 
-
 PLEASE OPEN THE SEEMECNC CURA 4.6.2 PROJECT 3MF FILE.  :) 
 
 
-
 ;PRINTER SETUP BEGINNING GCODE <<<< DO NOT COPY THIS LINE
-
 ;=== SeeMeCNC PRINTER SETTINGS =========
 ;=== OPTIMIZED FOR CURA 4.6.2  =========
 M203 Z10000  ;===PRINTER BEGIN G-CODE===
@@ -51,11 +50,7 @@ G1 F200 E3
 G92 E0       ;==========================
 
 
-
-
-
 ;PRINTER SETUP ENDING GCODE <<<< DO NOT COPY THIS LINE
-
 G91             ;============================
 G1 Z0.3 F10000
 G90
@@ -73,10 +68,7 @@ G28             ;===== PRINTER END GCODE =====
 
 
 
-
-
 ;EXTRUDER 1  BEGINNING GCODE <<<< DO NOT COPY THIS LINE
-
 G91           ;=======EXTRUDER 1 BEGIN GCODE=======
 G1 Z1 F10000
 G90
@@ -91,9 +83,7 @@ G92 E0        ;====================================
 
 
 
-
 ;EXTRUDER 1 ENDING GCODE   <<<< DO NOT COPY THIS LINE
-
 G91             ;====================================
 G1 Z1 F10000
 G90
@@ -106,3 +96,5 @@ G1 E-153.5 F5000
 G92 E0
 T-1 P0          ;DESELECT ALL TOOLS DO NOT RUN MACROS
 ;               ;=======END EXTRUDER 1 GCODE=========
+
+
