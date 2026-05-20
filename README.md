@@ -1,6 +1,8 @@
 # slicing-profiles
 
 
+MAY 2026 - note - OrcaSlicer is officially SeeMeCNC's supported slicing software. 
+
 Our recommended setup methode is to follow the quick start guide. Just type "quick start" in the search bar of seemecnc.com
 
 ___________________________________________________________
@@ -13,6 +15,7 @@ Hello.  We hope you enjoy these profiles.  These free slicing profiles have been
 > 2019-2020 XST SE300 for BOSSdelta's bigger heater block
 > 2020-2024 End of year 2024 support for Cura profiles
 > 2024-???  Orca slicing support begins late 4th quarter
+> 2026-MAY OrcaSlicer 2.3.2  ----- a new beginning -----
 
 
 PLEASE FOLLOW THE ONLINE SEEMECNC CURA SETUP GUIDE FOUND UNDER
@@ -28,8 +31,10 @@ menu item  SUPPORT > Quick Start
 
 
 The following notes are NOT intended for setup. Please see our guide.
-______________________________________________________________________
+_______________________________________________________________
 SeeMeCNC 
+May 2026 - our true initial pull into OrcaSlicer github, finally included in the Orca git downloads, and all thanks to SeeMe Sam Wygant, with help from PartDaddy & Carson Joyce.
+
 December 2024
 Orca support will begin. 
 
